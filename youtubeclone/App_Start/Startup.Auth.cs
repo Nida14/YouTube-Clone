@@ -54,14 +54,14 @@ namespace youtubeclone
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1898456043620026",
+               appSecret: "6607b5d0b5b57c767f9d03bd0fe7ca34");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
-            //    ClientId = "",
-            //    ClientSecret = ""
+            //    ClientId = "26462340934-n0rqqobj2cq818t5gpkqeq92clg38brl.apps.googleusercontent.com",
+            //    ClientSecret = "2Z8jYtIg0JfCg38jHF7cq09Q"
             //});
         }
     }
